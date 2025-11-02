@@ -21,7 +21,7 @@ refreshing your desktop every few hours while keeping things minimal, fast, and 
 ## Quick Setup
 
 ```bash
-git clone https://github.com/<your-username>/Aurora-Haven.git
+git clone https://github.com/small-root/Aurora-Haven.git
 cd Aurora-Haven
 chmod +x install.sh wallhaven_autorun.py
 bash install.sh
