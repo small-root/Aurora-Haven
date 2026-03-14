@@ -25,3 +25,6 @@ git clone https://github.com/small-root/Aurora-Haven.git
 cd Aurora-Haven
 chmod +x install.sh wallhaven_autorun.py
 bash install.sh
+```
+### One Time Run (enter your search term)
+python3 .local/bin/wallhaven_autorun.py
