@@ -57,6 +57,8 @@ pip3 install --user -r requirements.txt --break-system-packages
 # Reload systemd user daemon and enable/start timer
 systemctl --user daemon-reload
 systemctl --user enable wallhaven.timer
+systemctl --user enable wallhaven.service
+systemctl --user start wallhaven.service
 systemctl --user start wallhaven.timer
 
 echo "✅ Wallhaven auto-rotation service installed successfully!"
